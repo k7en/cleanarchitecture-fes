@@ -108,6 +108,11 @@ http://localhost:9088
 パスワード:cafes99
 ```
 
+## テスト
+```
+go test ./... -count=1 -v
+```
+
 ## 終了
 Ctrl+Cでgoプロセスを停止
 
