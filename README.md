@@ -64,7 +64,7 @@ go run maintain/initdb.go
 ## 起動
 (先にDBの初期化マイグレーションを実施してください)
 ```
-go run .\src\entrypoint\main.go .\src\entrypoint\graphql_resolver.go
+go run  ./src/entrypoint/main.go ./src/entrypoint/graphql_resolver.go
 ```
 
 ## 動作確認
