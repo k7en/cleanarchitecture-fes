@@ -63,11 +63,6 @@ go run maintain/initdb.go
 
 ## 起動
 (先にDBの初期化マイグレーションを実施してください)
-macの場合
-```
-go run src/entrypoint/*.go
-```
-Windowsの場合
 ```
 go run .\src\entrypoint\main.go .\src\entrypoint\graphql_resolver.go
 ```
@@ -103,7 +98,7 @@ query getFesEvents{
 
 以下にアクセスします
 
-https://localhost:9088
+http://localhost:9088
 
 以下を入力しログインできます。
 ```
